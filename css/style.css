@@ -102,6 +102,16 @@ footer {
 
   padding: 10px;
 }
+#formulario{
+  max-width: 600px;
+}
+.fo_contacto{
+  position: fixed;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin-bottom: 0px;
+}
 /* ------------ HERO CPU -------------- */
 .hero-cpu {
   height: 40vh;
@@ -126,113 +136,6 @@ footer {
   justify-content: flex-end;
 
   align-items: flex-start;
-}
-/* ------------ Formulario de contacto -------------- */
-.contact_form {
-  width: 460px;
-  height: auto;
-  margin: 80px auto;
-  border-radius: 10px;
-  padding-top: 30px;
-  padding-bottom: 20px;
-  background-color: #fbfbfb;
-  padding-left: 30px;
-}
-
-input {
-  background-color: #fbfbfb;
-  width: 408px;
-  height: 40px;
-  border-radius: 5px;
-  border-style: solid;
-  border-width: 1px;
-  border-color: rgb(70, 180, 169);
-  margin-top: 10px;
-  padding-left: 10px;
-  margin-bottom: 20px;
-}
-
-textarea {
-  background-color: #fbfbfb;
-  width: 405px;
-  height: 150px;
-  border-radius: 5px;
-  border-style: solid;
-  border-width: 1px;
-  border-color: rgb(70, 180, 169);
-  margin-top: 10px;
-  padding-left: 10px;
-  margin-bottom: 20px;
-  padding-top: 15px;
-}
-
-label {
-  display: block;
-  float: center;
-}
-
-.button-formulario {
-  height: 45px;
-  padding-left: 5px;
-  padding-right: 5px;
-  margin-bottom: 20px;
-  margin-top: 10px;
-  text-transform: uppercase;
-  background-color: rgb(70, 180, 169);
-  border-color: rgb(70, 180, 169);
-  border-style: solid;
-  border-radius: 10px;
-  width: 420px;
-  cursor: pointer;
-}
-
-button p {
-  color: #fff;
-}
-
-.span-formulario {
-  color: rgb(70, 180, 169);
-}
-
-.aviso {
-  font-size: 13px;
-  color: #0e0e0e;
-}
-
-.h2-formulario {
-  font-size: 2rem;
-  text-align: letf;
-  padding-bottom: 20px;
-  color: rgb(70, 180, 169);
-}
-
-.h3-formulario {
-  font-size: 16px;
-  padding-bottom: 30px;
-  color: #0e0e0e;
-}
-
-.p-formulario {
-  font-size: 14px;
-  color: #0e0e0e;
-}
-
-::-webkit-input-placeholder {
-  color: #a8a8a8;
-}
-
-::-webkit-textarea-placeholder {
-  color: #a8a8a8;
-}
-
-.formulario input:focus {
-  outline: 0;
-  border: 1px solid #97d848;
-}
-
-.formulario textarea:focus {
-  outline: 0;
-  border: 1px solid #97d848;
 }
 
 @media (min-width: 769px) and (max-width: 1200px) {
