@@ -3,9 +3,10 @@
   padding: 0;
   font-family: Arial, Helvetica, sans-serif;
 }
+/* ------------ Index -------------- */
 #header {
   background-color: #712cf9;
-} 
+}
 
 #titulo_h2 {
   color: rgb(70, 180, 169);
@@ -16,20 +17,16 @@
   border-top: 3px dotted;
 }
 
-.titulo_h3 {
-  margin-top: 10px;
-  padding-top: 5px;
-}
-
-#div_img:hover{
+#div_img:hover {
   transform: scale(1.25);
   transition: 1s;
 }
 
-#div_vid:hover{
+#div_vid:hover {
   transform: scale(1.25);
   transition: 1s;
 }
+
 .section_img {
   width: 60%;
   margin-top: 10px;
@@ -38,13 +35,12 @@
 footer {
   background-color: rgb(255, 223, 80);
 }
-
-.footer-nav li{
+.footer-nav li {
   display: inline;
   padding: 0px 40px;
 }
 
-.footer-nav a{
+.footer-nav a {
   color: black;
   text-decoration: none;
 }
@@ -53,26 +49,24 @@ footer {
   color: rgb(70, 180, 169);
   padding: 20px;
 }
+
 #imagen-tarjeta {
   width: 16rem;
   height: 16rem;
   align-self: center;
 }
-#card-tamaño{
+
+#card-tamaño {
   width: 18rem;
   height: 25rem;
-  
 }
-
 /* ------------ Botones -------------- */
-
 .btn {
   border: rgb(46, 43, 226) 2px solid;
   border-radius: 20px;
   text-decoration: none;
   background-color: rgb(43, 52, 226);
   color: white;
-
   padding: 8px 10px;
 }
 
@@ -83,9 +77,7 @@ footer {
 /* ------------ HERO CELULARES -------------- */
 .hero {
   height: 40vh;
-
   background: #000 url(../img/celulares5.jpg) center / cover no-repeat fixed;
-
   display: flex;
   /* EJE X - Principal */
   justify-content: flex-end;
@@ -97,76 +89,65 @@ footer {
   text-align: center;
   color: white;
   background-color: rgb(70, 180, 169);
-
   border-radius: 20px;
-
   padding: 10px;
 }
-#formulario{
+
+#formulario {
   max-width: 600px;
 }
-.fo_contacto{
+
+.fo_contacto {
   position: fixed;
-    bottom: 0px;
-    left: 0px;
-    right: 0px;
-    margin-bottom: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  margin-bottom: 0px;
 }
 /* ------------ HERO CPU -------------- */
 .hero-cpu {
   height: 40vh;
-
   background: #000 url(../img/Microprocesador.webp) center / cover no-repeat
     fixed;
-
   display: flex;
-
   justify-content: flex-end;
-
   align-items: flex-start;
 }
 /* ------------ HERO MOTHERBOARD -------------- */
 .hero-motherboard {
   height: 40vh;
-
   background: #000 url(../img/motherboard.jpg) center / cover no-repeat fixed;
-
   display: flex;
-
   justify-content: flex-end;
-
   align-items: flex-start;
 }
 
 @media (min-width: 769px) and (max-width: 1200px) {
-  
   .titulo_h2 {
     font-size: 2rem;
   }
-  
-  #card-animation:hover{
+  #card-animation:hover {
     transform: scale(1.25);
     transition: 1s;
   }
 }
+
 @media (min-width: 1200px) {
-  
   .titulo_h2 {
     font-size: 2rem;
   }
-  
-  #card-animation:hover{
+  #card-animation:hover {
     transform: scale(1.25);
     transition: 1s;
-  }h1 {
+  }
+  h1 {
     font-size: 3rem;
   }
   .titulo_h2 {
     font-size: 2rem;
   }
-  
-  #card-animation:hover{
+  #card-animation:hover {
     transform: scale(1.25);
     transition: 1s;
   }
-} 
+}
