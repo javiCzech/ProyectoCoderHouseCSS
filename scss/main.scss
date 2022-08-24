@@ -1,0 +1,88 @@
+@import "../utils/variables";
+@import "../components/footer";
+@import "../components/buttons";
+@import "../components/heroCelulares";
+@import "../components/heroCpu";
+@import "../components/heroMotherboard";
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  /* ------------ Index -------------- */
+
+  #header {
+    background-color: $color-secundario;
+  }
+  
+  #titulo_h2 {
+    color: $color-primario;
+    margin-top: 20px;
+  }
+  
+  #articulo {
+    border-top: 3px dotted;
+  }
+  
+  #div_img:hover {
+    transform: scale(1.25);
+    transition: 1s;
+  }
+  
+  #div_vid:hover {
+    transform: scale(1.25);
+    transition: 1s;
+  }
+  
+  .section_img {
+    width: 60%;
+    margin-top: 10px;
+  }
+
+  #productos-title {
+    color: $color-primario;
+    padding: 20px;
+  }
+  
+  #imagen-tarjeta {
+    width: 16rem;
+    height: 16rem;
+    align-self: center;
+  }
+  
+  #card-tamaño {
+    width: 18rem;
+    height: 25rem;
+  }
+
+  #formulario {
+    max-width: 600px;
+  }
+  
+  @media (min-width: 769px) and (max-width: 1200px) {
+    .titulo_h2 {
+      font-size: 2rem;
+    }
+    #card-animation:hover {
+      transform: scale(1.25);
+      transition: 1s;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    #card-animation:hover {
+      transform: scale(1.25);
+      transition: 1s;
+    }
+    h1 {
+      font-size: 3rem;
+    }
+    .titulo_h2 {
+      font-size: 2rem;
+    }
+    #card-animation:hover {
+      transform: scale(1.25);
+      transition: 1s;
+    }
+  }

@@ -1,0 +1,20 @@
+
+footer {
+    background-color: rgb(255, 223, 80);
+  }
+  .footer-nav li {
+    display: inline;
+    padding: 0px 40px;
+    a{
+        color: black;
+        text-decoration: none;
+    }
+  }  
+
+  .fo_contacto {
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin-bottom: 0px;
+  }
