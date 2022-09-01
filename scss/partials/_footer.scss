@@ -6,7 +6,6 @@ footer {
     display: inline;
     padding: 0px 40px;
     a{
-        color: black;
         text-decoration: none;
     }
   }  
@@ -17,4 +16,13 @@ footer {
     left: 0px;
     right: 0px;
     margin-bottom: 0px;
+  }
+  .facebook{
+    color: map-get($redes-sociales , facebook );
+  }
+  .instagram {
+    color: map-get($redes-sociales , Instagram );
+  }
+  .Twitter {
+    color: map-get($redes-sociales , Twitter );
   }

@@ -1,11 +1,7 @@
 .hero {
     height: 40vh;
     background: #000 url(../img/celulares5.jpg) center / cover no-repeat fixed;
-    display: flex;
-    /* EJE X - Principal */
-    justify-content: flex-end;
-    /* EJE y - Secundario */
-    align-items: flex-start;
+    @include flexbox(flex-end, flex-start);
   }
   
   .hero__text {
@@ -14,6 +10,9 @@
     background-color: rgb(70, 180, 169);
     border-radius: 20px;
     padding: 10px;
+    p{
+      margin-bottom: 0;
+    }
   }
   
   .fo_contacto {

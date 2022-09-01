@@ -1,0 +1,7 @@
+
+.hero-cpu {
+    height: 40vh;
+    background: #000 url(../img/Microprocesador.JPG) center / cover no-repeat
+      fixed;
+    @include flexbox (flex-end, flex-start);
+  }
