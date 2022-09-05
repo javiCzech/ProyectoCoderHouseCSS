@@ -1,4 +1,8 @@
 @import 'base/variables';
+@import 'partials/header';
+@import 'partials/banner';
+@import 'partials/futuro';
+@import 'partials/tarjetas';
 @import 'base/mixin';
 @import 'partials/card';
 @import 'partials/footer';
@@ -10,50 +14,6 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
-  }
-  /* ------------ Index -------------- */
-
-  #header {
-    background-color: $color-secundario;
-  }
-  
-  #titulo_h1 {
-    color: $color-primario;
-    margin-top: 20px;
-  }
-  
-  #articulo {
-    border-top: 3px dotted;
-  }
-  
-  #div_img:hover {
-    transform: scale(1.25);
-    transition: 1s;
-  }
-  
-  #div_vid:hover {
-    transform: scale(1.25);
-    transition: 1s;
-  }
-  
-  .section_img {
-    width: 60%;
-    margin-top: 10px;
   }
 
-  #productos-title {
-    color: $color-primario;
-    padding: 20px;
-  }
-  
-  #imagen-tarjeta {
-    width: 16rem;
-    height: 16rem;
-    align-self: center;
-  }
-  
-  #formulario {
-    max-width: 600px;
-  }
  

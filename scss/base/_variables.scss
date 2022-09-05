@@ -1,9 +1,19 @@
 $color-primario: rgb(70, 180, 169);
 
-$color-secundario:#712cf9;
+$color-secundario:#292929;
+
+$color-titulos: #111;
+
+$color-claro: #fff;
+
+@font-face {
+    font-family: 'NikeFont';
+    src: url('../Nike-Font/Futura\ Condensed\ Extra\ Bold.otf');
+}
 
 $redes-sociales: (
-    facebook: #3b5998,
-    Instagram: #9b3f53e3,
-    Twitter: #00acee
+    facebook: #3B579D,
+    linkedin: #007BB6,
+    Twitter: #2CAAE1
 );
+

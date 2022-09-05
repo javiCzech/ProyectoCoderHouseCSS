@@ -14,6 +14,16 @@
   
 .btn-negro{
   @extend .btn;
-  border: black 2px solid;
-  background-color: black;
+  border: $color-titulos;
+  background-color: $color-titulos;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 400;
+  padding: 8px 20px;
+  margin: 6px 6px 0 0;
+  border-radius: 20px;
+  &:hover {
+    background-color: $color-titulos;
+    opacity: 0.6;
+  }
 }

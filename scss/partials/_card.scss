@@ -5,11 +5,14 @@
 #h2{
     font-size: 1.5rem;
 }
+
+#imagen-tarjeta {
+  width: 16rem;
+  height: 16rem;
+  align-self: center;
+}
   
   @media (min-width: 769px) and (max-width: 1200px) {
-    .titulo_h2 {
-      font-size: 2rem;
-    }
     #card-animation:hover {
       transform: scale(1.25);
       transition: 1s;
@@ -20,12 +23,6 @@
     #card-animation:hover {
       transform: scale(1.25);
       transition: 1s;
-    }
-    h1 {
-      font-size: 3rem;
-    }
-    .titulo_h2 {
-      font-size: 2rem;
     }
     #card-animation:hover {
       transform: scale(1.25);

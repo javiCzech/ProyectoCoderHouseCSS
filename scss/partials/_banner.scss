@@ -1,0 +1,16 @@
+.img-banner{
+    width: 100%;
+    margin-bottom: 30px;
+    height: 600px;
+}
+
+.procesadores{
+    font-size: 3rem;
+    font-weight: 900;
+    color: #000;
+    @media (max-width: 480px) {
+        & {
+           font-size: 2rem;
+        }
+      }
+}
