@@ -44,10 +44,10 @@
         <nav class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
           <ul class="navbar-nav pe-5">
             <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
-            <li class="nav-item"><a class="nav-link" href="./pages/celulares.html">Celulares</a></li>
-            <li class="nav-item"><a class="nav-link" href="./pages/cpu.html">Cpu</a></li>
-            <li class="nav-item"><a class="nav-link" href="./pages/motherboard.html">Motherboard</a></li>
-            <li class="nav-item"><a class="nav-link" href="./pages/contact.html">Contacto</a></li>
+            <li class="nav-item"><a class="nav-link" href="pages/celulares.html">Celulares</a></li>
+            <li class="nav-item"><a class="nav-link" href="pages/cpu.html">Cpu</a></li>
+            <li class="nav-item"><a class="nav-link" href="pages/motherboard.html">Motherboard</a></li>
+            <li class="nav-item"><a class="nav-link" href="pages/contact.html">Contacto</a></li>
           </ul>
         </nav>
       </div>
@@ -57,14 +57,15 @@
 
   <main>
     <section class="container">
-      <article class="row">
+      <div class="row">
         <div class="col-12" >
           <img src="./img/banner.jpg" class="img-banner"alt="Banner Motherboard" />
         </div>
-      </article>
+      </div>
     </section>
+
     <section class="container mt-5">
-      <article class="row">
+      <div class="row">
       <div class="col-12">
         <h1 class="text-center futuro">TECNOLOGIA DEL MAÑANA</h1>
         </div>
@@ -72,7 +73,7 @@
           <a href="./pages/motherboard.html" class="btn btn-negro">Conocé más</a>
           <a href="./pages/contact.html" class="btn btn-negro">Contactanos</a>
         </div>
-      </article>
+      </div>
 
     </section>
     <section class="container mt-5">
@@ -97,11 +98,11 @@
 
     <section class="container mt-5">
 
-      <article class="row">
+      <div class="row">
         <div class="col-12">
           <img src="./img/mother-banner2.jpg" class="img-banner"alt="Banner Motherboard" />
         </div>
-      </article>
+      </div>
 
     </section>
 
@@ -129,12 +130,12 @@
 
   <section class="container mt-5">
     <h4 class="text-center">Ultimos Lanzamientos</h4>
-    <article class="row">
+    <div class="row">
       <div class="col-12">
         <img src="./img/banner-cel.jpg" class="img-banner"alt="Banner Celulares" />
       </div>
 
-    </article>
+    </div>
   </section>
 
   <section class="container mt-4">
@@ -160,19 +161,19 @@
   <footer class="mt-5">
     <div class="container-fluid">
       <div class="row pt-4" id="parte1">
-          <div class="col-xs-6 col-sm-6 col-lg-6 col-xl-3 col-xxl-3 ps-4" id="companyinfo">
+          <div class="col-xs-12 col-sm-6 col-lg-6 col-xl-3 col-xxl-3 ps-4" id="companyinfo">
               <h4 id="sitelink" href="#">CompuTotal</h4>
               <p id="title">La tecnologia en tus manos</p>
               <p id="detail">Encontra lo ultimo en tecnologia pc gaming y celulares </p>
           </div>
-          <div class="col-xs-6 col-sm-6 col-lg-6 col-xl-3 col-xxl-3" id="explore">
+          <div class="col-xs-12 col-sm-6 col-lg-6 col-xl-3 col-xxl-3" id="explore">
               <p id="txt1">Explora</p>
-              <a class="link" href="./pages/celulares.html">Celulares</a>
-              <a class="link" href="./pages/cpu.html">Cpu</a>
-              <a class="link" href="./pages/motherboard.html">Motherboard</a>
-              <a class="link" href="./pages/contact.html">Contacto</a>
+              <a class="link" href="pages/celulares.html">Celulares</a>
+              <a class="link" href="pages/cpu.html">Cpu</a>
+              <a class="link" href="pages/motherboard.html">Motherboard</a>
+              <a class="link" href="pages/contact.html">Contacto</a>
           </div>
-          <div class="col-xs-6  col-sm-6 col-lg-6 col-xl-3 col-xxl-3" id="visit">
+          <div class="col-xs-12 col-sm-6 col-lg-6 col-xl-3 col-xxl-3" id="visit">
               <p id="txt2">Visitanos</p>
               <p class="text">San Isidro </p>
               <p class="text">Casa Central </p>
@@ -181,10 +182,12 @@
               <p class="text">cel: (11) 2363-0350 </p>
           </div>
         
-          <div class="col-xs-6 col-sm-6 col-lg-6 col-xl-3 col-xxl-3" id="subscribe">
-              <p id="txt4">Suscribite</p>
+          <div class="col-xs-12 col-sm-6 col-lg-6 col-xl-3 col-xxl-3" id="subscribe">
               <form class="mt-4">
+                <div class="form_fo">
+                  <label class="form-label" for="emailAddress" id="txt4">Suscribite</label>
                   <input id="email" type="email" placeholder="Email">
+                </div>
               </form>
               <a class="waves-effect waves-light btn btn-primary">Enviar</a>
               <p id="txt5">Nuestas Redes Sociales</p>

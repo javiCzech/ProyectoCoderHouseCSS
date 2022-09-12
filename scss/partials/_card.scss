@@ -11,7 +11,12 @@
   height: 16rem;
   align-self: center;
 }
-  
+  @media screen and (max-width: 768px) {
+    #card-tamaño{
+    width: auto;
+    height: auto;
+  }
+  }
   @media (min-width: 769px) and (max-width: 1200px) {
     #card-animation:hover {
       transform: scale(1.25);

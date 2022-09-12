@@ -74,6 +74,12 @@
   align-self: center;
 }
 
+@media screen and (max-width: 768px) {
+  #card-tamaño {
+    width: auto;
+    height: auto;
+  }
+}
 @media (min-width: 769px) and (max-width: 1200px) {
   #card-animation:hover {
     transform: scale(1.25);
@@ -139,6 +145,7 @@
 
 .link {
   display: flex;
+  flex-direction: column;
   width: 90px;
   height: 40px;
   color: #aaa7a7;
@@ -170,10 +177,16 @@
   margin-top: 7px;
 }
 
+.form_fo {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: -30px;
+  max-width: 250px;
+}
+
 #email {
   color: white;
-  position: relative;
-  top: -20px;
 }
 
 .btn, .btn-negro {
@@ -220,6 +233,19 @@
   top: 3px;
 }
 
+@media (max-width: 576px) {
+  #parte1 {
+    text-align: center;
+  }
+  .link {
+    align-items: center;
+    margin: 0px auto;
+  }
+  .form_fo {
+    align-items: center;
+    margin: 0px auto;
+  }
+}
 .btn, .btn-negro {
   border: rgb(46, 43, 226) 2px solid;
   border-radius: 20px;

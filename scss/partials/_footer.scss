@@ -44,6 +44,7 @@
 
 .link{
     display: flex;
+    flex-direction: column;
     width: 90px;
     height: 40px;
     color: #aaa7a7;
@@ -73,11 +74,15 @@
     top: -10px;
     margin-top: 7px;
 }
-
-#email{
-    color: white;
+.form_fo{
+    display: flex;
+    flex-direction: column;
     position: relative;
-    top: -20px;
+    top: -30px;
+    max-width: 250px;
+}
+#email{
+    color: white;  
 }
 .btn{
     position: relative;
@@ -116,3 +121,16 @@
     top: 3px;
 }
 
+@media (max-width: 576px) {
+    #parte1{
+        text-align: center;
+    }
+    .link{
+        align-items: center;
+        margin: 0px auto;
+    }
+    .form_fo{
+        align-items: center;
+        margin: 0px auto;
+    }
+  }
