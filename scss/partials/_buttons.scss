@@ -6,10 +6,6 @@
     color: white;
     cursor: pointer;
     padding: 8px 10px;
-    :hover{
-        background-color: white;
-        color: rgb(156, 43, 226); 
-    }
   }
   
 .btn-negro{
@@ -23,7 +19,16 @@
   margin: 6px 6px 0 0;
   border-radius: 20px;
   &:hover {
-    background-color: $color-titulos;
+    color: $color-titulos;
+    opacity: 0.9;
+  }
+}
+
+.btn-naranja{
+  @extend .btn-negro;
+  background-color: #ff6400 !important;
+  &:hover {
+    background-color:#ff6400 !important;
     opacity: 0.6;
   }
 }

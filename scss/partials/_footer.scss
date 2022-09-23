@@ -1,8 +1,4 @@
 
-#formulario{
-    max-width: 600px;
-}
-
 #parte1{
     background-color: #292929;
 }
@@ -11,8 +7,8 @@
 }
 
 #sitelink{
-    font-size: 35px;
-    color: #f44336;
+    font-size: 28px;
+    color: $color-titulos2;
 }
 #sitelink:hover{
     color: #e65100;
