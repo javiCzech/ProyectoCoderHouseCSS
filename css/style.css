@@ -86,7 +86,7 @@ header {
 }
 
 .tituloh1 {
-  color: rgb(70, 180, 169);
+  color: #ff6400;
 }
 
 .futuro {
@@ -233,7 +233,7 @@ header {
   margin-top: 7px;
 }
 
-.form_fo {
+.form-fo {
   display: flex;
   flex-direction: column;
   position: relative;
@@ -281,7 +281,6 @@ header {
   top: 13px;
   left: 8%;
   width: 80%;
-  color: #aaa7a7;
 }
 
 .material-icons {
@@ -344,23 +343,15 @@ header {
   align-items: flex-start;
 }
 
-.hero__text {
+.hero-text {
   text-align: center;
   color: white;
   background-color: #ff6400;
   border-radius: 20px;
   padding: 10px;
 }
-.hero__text p {
+.hero-text p {
   margin-bottom: 0;
-}
-
-.fo_contacto {
-  position: fixed;
-  bottom: 0px;
-  left: 0px;
-  right: 0px;
-  margin-bottom: 0px;
 }
 
 .hero-cpu {

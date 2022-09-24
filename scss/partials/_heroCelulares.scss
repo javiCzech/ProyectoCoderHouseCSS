@@ -5,10 +5,10 @@
     @include flexbox(flex-end, flex-start);
   }
   
-  .hero__text {
+  .hero-text {
     text-align: center;
     color: white;
-    background-color: $color-titulos2;
+    background-color: $color-primario;
     border-radius: 20px;
     padding: 10px;
     p{
@@ -16,10 +16,3 @@
     }
   }
   
-  .fo_contacto {
-    position: fixed;
-    bottom: 0px;
-    left: 0px;
-    right: 0px;
-    margin-bottom: 0px;
-  }

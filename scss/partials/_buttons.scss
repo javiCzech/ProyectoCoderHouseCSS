@@ -26,9 +26,9 @@
 
 .btn-naranja{
   @extend .btn-negro;
-  background-color: #ff6400 !important;
+  background-color: $color-primario !important;
   &:hover {
-    background-color:#ff6400 !important;
+    background-color:$color-primario !important;
     opacity: 0.6;
   }
 }

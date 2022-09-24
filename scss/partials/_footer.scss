@@ -8,7 +8,7 @@
 
 #sitelink{
     font-size: 28px;
-    color: $color-titulos2;
+    color: $color-primario;
 }
 #sitelink:hover{
     color: #e65100;
@@ -70,7 +70,7 @@
     top: -10px;
     margin-top: 7px;
 }
-.form_fo{
+.form-fo{
     display: flex;
     flex-direction: column;
     position: relative;
@@ -110,7 +110,6 @@
     top: 13px;
     left: 8%;
     width: 80%;
-    color: #aaa7a7;
 }
 .material-icons{
     position: relative;
